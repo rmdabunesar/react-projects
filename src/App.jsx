@@ -12,11 +12,11 @@ const App = () => {
 
       {/* <StarRating noOfStars={5} /> */}
 
-      <ImageSlider
+      {/* <ImageSlider
         url={"https://picsum.photos/v2/list"}
         page={"2"}
         limit={"4"}
-      />
+      /> */}
     </div>
   );
 };
