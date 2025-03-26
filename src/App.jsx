@@ -1,5 +1,6 @@
 import Accordian from "./components/accordian/Accordian";
 import ImageSlider from "./components/image-slider/ImageSlider";
+import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import NavMenu from "./components/nav-menu/NavMenu";
 import menus from "./components/nav-menu/data";
@@ -26,7 +27,9 @@ const App = () => {
 
       {/* <NavMenu menus={menus} /> */}
 
-      <QrCode />
+      {/* <QrCode /> */}
+
+      <LightDarkMode />
     </div>
   );
 };
