@@ -63,7 +63,7 @@ export default function RandomColor() {
           gap: "20px",
         }}
       >
-        <h3>{typeOfColor === "rgb" ? "RGB Color" : "HEX Color"}</h3>
+        <h3>{typeOfColor === "rgb" ? "RGB color" : "HEX color"}</h3>
         <h1>{color}</h1>
       </div>
     </div>
