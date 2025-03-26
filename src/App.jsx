@@ -6,6 +6,7 @@ import NavMenu from "./components/nav-menu/NavMenu";
 import menus from "./components/nav-menu/data";
 import QrCode from "./components/qr-code/QrCode";
 import RandomColor from "./components/random-color/RandomColor";
+import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import StarRating from "./components/star-rating/StarRating";
 
 const App = () => {
@@ -29,7 +30,9 @@ const App = () => {
 
       {/* <QrCode /> */}
 
-      <LightDarkMode />
+      {/* <LightDarkMode /> */}
+
+      <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
     </div>
   );
 };
