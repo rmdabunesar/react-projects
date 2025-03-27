@@ -3,6 +3,7 @@ import TabTest from "./components/custom-tabs/TabTest";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
+import ModelPopupTest from "./components/modal-popup/ModelPopupTest";
 import NavMenu from "./components/nav-menu/NavMenu";
 import menus from "./components/nav-menu/data";
 import QrCode from "./components/qr-code/QrCode";
@@ -35,7 +36,9 @@ const App = () => {
 
       {/* <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} /> */}
 
-      <TabTest />
+      {/* <TabTest /> */}
+
+      <ModelPopupTest />
     </div>
   );
 };
