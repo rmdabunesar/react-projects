@@ -1,4 +1,4 @@
-.container {
+.modal-container {
     text-align: center;
     margin-top: 50px;
 }
@@ -88,7 +88,7 @@
 }
 
 /* Open Modal Button */
-button {
+.modal-container button {
     background-color: #007bff;
     color: white;
     padding: 10px 20px;
@@ -99,6 +99,6 @@ button {
     transition: 0.3s;
 }
 
-button:hover {
+.modal-container button:hover {
     background-color: #0056b3;
 }

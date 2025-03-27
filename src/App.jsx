@@ -1,5 +1,6 @@
 import Accordian from "./components/accordian/Accordian";
 import TabTest from "./components/custom-tabs/TabTest";
+import GitHubProfileFinder from "./components/github-profile-finder/GitHubProfileFinder";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
@@ -38,7 +39,9 @@ const App = () => {
 
       {/* <TabTest /> */}
 
-      <ModelPopupTest />
+      {/* <ModelPopupTest /> */}
+
+      <GitHubProfileFinder />
     </div>
   );
 };

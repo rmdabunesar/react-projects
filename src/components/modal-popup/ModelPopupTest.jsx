@@ -10,7 +10,7 @@ const ModalPopupTest = () => {
   };
 
   return (
-    <div className="container">
+    <div className="modal-container">
       <button onClick={toggleModalPopup}>Open Modal Popup</button>
       <ModalPopup
         show={showModalPopup}
