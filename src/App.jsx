@@ -12,6 +12,7 @@ import RandomColor from "./components/random-color/RandomColor";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import SearchAutocomplete from "./components/search-autocomplete/SearchAutocomplete";
 import StarRating from "./components/star-rating/StarRating";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 const App = () => {
   return (
@@ -44,7 +45,9 @@ const App = () => {
 
       {/* <GitHubProfileFinder /> */}
 
-      <SearchAutocomplete />
+      {/* <SearchAutocomplete /> */}
+
+      <TicTacToe />
     </div>
   );
 };
