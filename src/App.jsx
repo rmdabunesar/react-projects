@@ -10,6 +10,7 @@ import menus from "./components/nav-menu/data";
 import QrCode from "./components/qr-code/QrCode";
 import RandomColor from "./components/random-color/RandomColor";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
+import SearchAutocomplete from "./components/search-autocomplete/SearchAutocomplete";
 import StarRating from "./components/star-rating/StarRating";
 
 const App = () => {
@@ -41,7 +42,9 @@ const App = () => {
 
       {/* <ModelPopupTest /> */}
 
-      <GitHubProfileFinder />
+      {/* <GitHubProfileFinder /> */}
+
+      <SearchAutocomplete />
     </div>
   );
 };
