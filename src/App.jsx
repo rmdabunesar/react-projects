@@ -1,5 +1,7 @@
 import Accordian from "./components/accordian/Accordian";
 import TabTest from "./components/custom-tabs/TabTest";
+import FeatureFlag from "./components/feature-flag/FeatureFlag";
+import FeatureFlagGlobalState from "./components/feature-flag/context/Context";
 import GitHubProfileFinder from "./components/github-profile/GitHubProfile";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import LightDarkMode from "./components/light-dark-mode/LightDarkMode";
@@ -47,7 +49,11 @@ const App = () => {
 
       {/* <SearchAutocomplete /> */}
 
-      <TicTacToe />
+      {/* <TicTacToe /> */}
+
+      <FeatureFlagGlobalState>
+        <FeatureFlag />
+      </FeatureFlagGlobalState>
     </div>
   );
 };
