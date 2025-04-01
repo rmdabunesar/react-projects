@@ -15,6 +15,7 @@ import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import SearchAutocomplete from "./components/search-autocomplete/SearchAutocomplete";
 import StarRating from "./components/star-rating/StarRating";
 import TicTacToe from "./components/tic-tac-toe/TicTacToe";
+import HookTest from "./components/use-fetch/HookTest";
 
 const App = () => {
   return (
@@ -51,9 +52,11 @@ const App = () => {
 
       {/* <TicTacToe /> */}
 
-      <FeatureFlagGlobalState>
+      {/* <FeatureFlagGlobalState>
         <FeatureFlag />
-      </FeatureFlagGlobalState>
+      </FeatureFlagGlobalState> */}
+
+      <HookTest />
     </div>
   );
 };
