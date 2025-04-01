@@ -16,6 +16,7 @@ import SearchAutocomplete from "./components/search-autocomplete/SearchAutocompl
 import StarRating from "./components/star-rating/StarRating";
 import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 import HookTest from "./components/use-fetch/HookTest";
+import UseOnClickOutsideTest from "./components/use-outside-click/UseOnClickOutsideTest";
 
 const App = () => {
   return (
@@ -56,7 +57,9 @@ const App = () => {
         <FeatureFlag />
       </FeatureFlagGlobalState> */}
 
-      <HookTest />
+      {/* <HookTest /> */}
+
+      <UseOnClickOutsideTest />
     </div>
   );
 };
