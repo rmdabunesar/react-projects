@@ -12,6 +12,8 @@ import menus from "./components/nav-menu/data";
 import QrCode from "./components/qr-code/QrCode";
 import RandomColor from "./components/random-color/RandomColor";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
+import ScrollToSection from "./components/scroll-top-bottom/ScrollToSection";
+import ScrollTopBottom from "./components/scroll-top-bottom/ScrollTopBottom";
 import SearchAutocomplete from "./components/search-autocomplete/SearchAutocomplete";
 import StarRating from "./components/star-rating/StarRating";
 import TicTacToe from "./components/tic-tac-toe/TicTacToe";
@@ -62,7 +64,11 @@ const App = () => {
 
       {/* <UseOnClickOutsideTest /> */}
 
-      <UseWindowResizeTest />
+      {/* <UseWindowResizeTest /> */}
+
+      {/* <ScrollTopBottom /> */}
+
+      <ScrollToSection />
     </div>
   );
 };
