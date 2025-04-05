@@ -47,7 +47,7 @@ const App = () => {
 
       {/* <ModelPopupTest /> */}
 
-      {/* <GitHubProfileFinder /> */}
+      <GitHubProfileFinder />
 
       {/* <SearchAutocomplete /> */}
 

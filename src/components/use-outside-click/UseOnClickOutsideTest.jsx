@@ -1,11 +1,11 @@
 import { useRef, useState } from "react";
-import UseOutSideClick from "./UseOutSideClick";
+import UseOutsideClick from "./UseOutsideClick";
 
 const UseOnClickOutsideTest = () => {
   const [showContent, setShowContent] = useState(false);
   const ref = useRef();
 
-  UseOutSideClick(ref, () => setShowContent(false));
+  UseOutsideClick(ref, () => setShowContent(false));
 
   return (
     <div>
