@@ -17,6 +17,7 @@ import StarRating from "./components/star-rating/StarRating";
 import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 import HookTest from "./components/use-fetch/HookTest";
 import UseOnClickOutsideTest from "./components/use-outside-click/UseOnClickOutsideTest";
+import UseWindowResizeTest from "./components/use-window-resize/UseWindowResizeTest";
 
 const App = () => {
   return (
@@ -47,7 +48,7 @@ const App = () => {
 
       {/* <ModelPopupTest /> */}
 
-      <GitHubProfileFinder />
+      {/* <GitHubProfileFinder /> */}
 
       {/* <SearchAutocomplete /> */}
 
@@ -59,7 +60,9 @@ const App = () => {
 
       {/* <HookTest /> */}
 
-      <UseOnClickOutsideTest />
+      {/* <UseOnClickOutsideTest /> */}
+
+      <UseWindowResizeTest />
     </div>
   );
 };
