@@ -20,6 +20,7 @@ import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 import HookTest from "./components/use-fetch/HookTest";
 import UseOnClickOutsideTest from "./components/use-outside-click/UseOnClickOutsideTest";
 import UseWindowResizeTest from "./components/use-window-resize/UseWindowResizeTest";
+import Weather from "./components/weather/Weather";
 
 const App = () => {
   return (
@@ -50,7 +51,7 @@ const App = () => {
 
       {/* <ModelPopupTest /> */}
 
-      {/* <GitHubProfileFinder /> */}
+      <GitHubProfileFinder />
 
       {/* <SearchAutocomplete /> */}
 
@@ -68,7 +69,9 @@ const App = () => {
 
       {/* <ScrollTopBottom /> */}
 
-      <ScrollToSection />
+      {/* <ScrollToSection /> */}
+
+      {/* <Weather /> */}
     </div>
   );
 };
