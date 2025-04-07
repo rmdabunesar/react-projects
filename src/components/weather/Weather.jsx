@@ -58,7 +58,7 @@ const Weather = () => {
         handleSearch={handleSearch}
       />
       {loading ? (
-        <div className="loading">Loading...</div>
+        <div className="loading">Loading ...</div>
       ) : error ? (
         <div className="error">{error}</div>
       ) : weatherData ? (
